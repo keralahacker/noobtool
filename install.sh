@@ -395,6 +395,5 @@ fi
 	exit
 fi
 
-fi
 sleep 3
 ./install.sh
