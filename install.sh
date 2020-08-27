@@ -383,7 +383,7 @@ echo ""
 	git clone https://github.com/keralahacker/noobtool.git
 	cd noobtool
 	chmod +x *
-	bash noobtool/install.sh
+	./install.sh
 
 
 fi
