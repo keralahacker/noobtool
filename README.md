@@ -2,7 +2,7 @@
 rm -rf noobtool
 ```
 ```
-	git clone https://github.com/keralahacker/noobtool.git
+git clone https://github.com/keralahacker/noobtool.git
 ```
 
 ```
