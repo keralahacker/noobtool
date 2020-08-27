@@ -1,6 +1,18 @@
-# noobtool
-# pkg install git 
-## git clone https://github.com/keralahacker/noobtool 
-## cd noobtool
-## chmod +x *
-## ./termux-noob.sh
+```
+rm -rf noobtool
+```
+```
+	git clone https://github.com/keralahacker/noobtool.git
+```
+
+```
+cd noobtool
+```
+
+```
+chmod +x *
+```
+
+```
+./install.sh
+```
