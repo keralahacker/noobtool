@@ -1,5 +1,6 @@
 #!/bin/bash
 clear 
+
 ###############################################################
 clear 
 echo "┬┌─┌─┐┬─┐┌─┐┬  ┌─┐   ┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐"
@@ -8,10 +9,18 @@ echo "├┴┐├┤ ├┬┘├─┤│  ├─┤─*─├─┤├─┤�
 sleep 1
 echo "┴ ┴└─┘┴└─┴ ┴┴─┘┴ ┴   ┴ ┴┴ ┴└─┘┴ ┴└─┘┴└─"
 sleep 1
+clear 
+echo ""
+echo " ╔╗╔┌─┐┌─┐┌┐   ╔╦╗╔═╗╔═╗╦   "
+sleep 1
+echo " ║║║│ ││ │├┴┐───║ ║ ║║ ║║   "
+sleep 1
+echo " ╝╚╝└─┘└─┘└─┘   ╩ ╚═╝╚═╝╩═╝ "
+pkg install pv -y &>>install.log 
 echo "==========NOOB-TOOL ver.0.0.2=========="
 sleep 1
 echo "=== https://github.com/keralahacker/ =="
-echo "==============keralahacker============="
+echo "==============keralahacker=============" | pv -qL 10
 sleep 1
 echo ""
 read -p $'\e[1;32m\e[0m\e[1;32m 1:>>> basics  \n \e[34m2:>>> pro-package \e[0m \n \e[0m\e[1;33m3:>>> Update tool\n\e[0m\e[1;33m 4:>>> EXIT \e[0m \n \n MODE:->:' option
@@ -21,7 +30,7 @@ echo ""
 
 if [[ $option == *'1'* ]]; then
 clear
-pkg install pv -y &>>install.log 
+
 echo 'installing root-repo' | pv -qL 10
 pkg install root-repo -y  
 sleep 3
@@ -356,6 +365,18 @@ fi
 
 	if [[ $option == *'3'* ]]; then
 	clear
+	echo ""
+echo " ╔╗╔┌─┐┌─┐┌┐   ╔╦╗╔═╗╔═╗╦   "
+sleep 1
+echo " ║║║│ ││ │├┴┐───║ ║ ║║ ║║   "
+sleep 1
+echo " ╝╚╝└─┘└─┘└─┘   ╩ ╚═╝╚═╝╩═╝ "
+echo "==========NOOB-TOOL ver.0.0.2=========="
+sleep 1
+echo "=== https://github.com/keralahacker/ =="
+echo "==============keralahacker=============" | pv -qL 10
+echo ""
+echo ""
 	echo "this tool ill update in t-3sec" |pv -qL 8
 	cd ..
 	rm -rf noobtool
