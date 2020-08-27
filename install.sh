@@ -380,10 +380,9 @@ echo ""
 	echo "this tool ill update in t-3sec" |pv -qL 8
 	cd ..
 	rm -rf noobtool
-	cd noobtool
 	git clone https://github.com/keralahacker/noobtool.git
-	sudo chmod +x noobtool/install.sh
-	#cd noobtool
+	cd noobtool
+	chmod +x *
 	bash noobtool/install.sh
 
 
