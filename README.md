@@ -1,7 +1,8 @@
-╔╗╔┌─┐┌─┐┌┐   ╔╦╗╔═╗╔═╗╦  
-║║║│ ││ │├┴┐───║ ║ ║║ ║║    vre 0.0.2   
-╝╚╝└─┘└─┘└─┘   ╩ ╚═╝╚═╝╩═╝  keralahacker
-=
+### Noob-Tool
+
+This tool is desinged for installing primery or need full package to  [$Termux] (https://play.google.com/store/apps/details?id=com.termux&hl=en_IN)
+
+
 
 
 ```
