@@ -1,8 +1,20 @@
 clear 
-read -p $'\e[1;32m\e[0m\e[1;32m 1:>>> basics  \n \e[34m2:>>> pro-package \e[0m \n \e[0m\e[1;33m3:>>> Update tool\n\e[0m\e[1;33m 4:>>> EXIT \e[0m \n MODE:->:' option
-echo""
-echo""
-echo""
+echo "┬┌─┌─┐┬─┐┌─┐┬  ┌─┐   ┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐"
+sleep 1
+echo "├┴┐├┤ ├┬┘├─┤│  ├─┤─*─├─┤├─┤│  ├┴┐├┤ ├┬┘"
+sleep 1
+echo "┴ ┴└─┘┴└─┴ ┴┴─┘┴ ┴   ┴ ┴┴ ┴└─┘┴ ┴└─┘┴└─"
+sleep 1
+echo "==========NOOB-TOOL ver.0.0.2=========="
+sleep 1
+echo "=== https://github.com/keralahacker/ =="
+echo "==============keralahacker============="
+sleep 1
+echo ""
+read -p $'\e[1;32m\e[0m\e[1;32m 1:>>> basics  \n \e[34m2:>>> pro-package \e[0m \n \e[0m\e[1;33m3:>>> Update tool\n\e[0m\e[1;33m 4:>>> EXIT \e[0m \n \n MODE:->:' option
+echo ""
+echo ""
+echo ""
 
 if [[ $option == *'1'* ]]; then
 clear
@@ -361,4 +373,3 @@ fi
 
 sleep 3
 ./install.sh
-
