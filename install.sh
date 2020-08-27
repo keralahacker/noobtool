@@ -400,10 +400,12 @@ fi
 	if [[ $option == *'3'* ]]; then
 	clear
 	echo "this tool ill update in t-3sec" |pv -qL 8
+	cd ..
+	rm -rf noobtool
 	cd noobtool
 	git clone https://github.com/keralahacker/noobtool.git
 	sudo chmod +x noobtool/install.sh
-	cd noobtool
+	#cd noobtool
 	bash noobtool/install.sh
 
 
