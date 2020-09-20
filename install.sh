@@ -49,7 +49,11 @@ pkg install python  -y
 clear
 echo 'i*nstalling python2' | pv -qL 10
 sleep 3
-pkg install python2 -y 
+pkg install python2 -y
+clear
+echo 'installing python3' | pv -qL 10
+sleep 3
+pkg install python3  -y
 clear
 echo 'installing curl' | pv -qL 10
 sleep 3
