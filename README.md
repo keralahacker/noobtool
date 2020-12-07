@@ -31,5 +31,5 @@ pkg install git -y &&
 rm -rf noobtool && git clone https://github.com/keralahacker/noobtool.git && cd noobtool && chmod +x * && ./install.sh
 ```
 ####
-#### <a href="https://t/" telagra > </a> 
-### i
+##### <a href="https://t.me/hackwithvyshu">Telegramt📞 </a> 
+##### <a href="https://www.instagram.com/hack_with_vyshu">Instagram ❤️ </a> 
